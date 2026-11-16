@@ -23,7 +23,7 @@ async function verificarApi() {
     const dados = await resposta.json();
 
     document.querySelector("#api-status").textContent =
-      `Conectado! ${dados.app} - Status: ${dados.status}`;
+      `Status da API: ${dados.status} | Data e hora: ${new Date(dados.hora).toLocaleString("pt-BR")}`;
   } catch {
     document.querySelector("#api-status").textContent =
       "Não foi possível conectar à API.";
