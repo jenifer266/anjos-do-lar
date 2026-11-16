@@ -44,7 +44,7 @@ Acesse:
 
 http://localhost:3000/api/health
 
-A API deverá retornar o status de funcionamento do sistema como `ok`.
+A API deverá retornar o status de funcionamento como `ok`.
 
 ## Objetivo do projeto
 
