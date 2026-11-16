@@ -1,27 +1,48 @@
-# Vanilla JavaScript project
+# Associação Beneficente Anjos do Lar
 
-With this template project you can quickly start using Vanilla JS!
+Projeto acadêmico desenvolvido com Vite Plus, JavaScript e Express.
 
-## Setup
+## Tecnologias utilizadas
 
+- JavaScript
+- Vite Plus
+- Node.js
+- Express
+
+## Como instalar
+
+Abra o terminal na pasta do projeto e execute:
+
+```bash
+npm install
 ```
-npm i
+
+## Como executar
+
+Abra dois terminais no VS Code.
+
+No primeiro terminal, execute:
+
+```bash
+npm run api
 ```
 
-In order to download the development dependencies.
+No segundo terminal, execute:
 
-You may use other package managers with its respective commands, if you wish so.
-
-## Run
-
-You may simply insert the `index.html` file path into your browser to see your app.
-
-But if there are problems with [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), JavaScript modules, or with your workflow in general, you might prefer to use a live local server to host your app as well as reloading it on every file change.
-
-To start the live server, use
-
-```
+```bash
 npm run dev
 ```
 
-and it will be served at `http://localhost:8080`.
+Abra no navegador o endereço apresentado pelo Vite.
+
+## Testar a API
+
+Acesse:
+
+http://localhost:3000/api/health
+
+A API deverá retornar o status de funcionamento do sistema.
+
+## Objetivo do projeto
+
+Criar um sistema para auxiliar a Associação Beneficente Anjos do Lar na gestão de voluntários, doações e estoque solidário.
